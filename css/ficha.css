@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(8, 214, 250);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 3em;
+}
+.sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+button{
+    background-color: rgb(229, 230, 224);
+    color: rgb(0, 0, 0);
+    border-color: blue;
+
+}
+input{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: blue;
+}
+h4{
+    display: inline-block;                                   
+}

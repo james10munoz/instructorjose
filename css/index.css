@@ -1,0 +1,17 @@
+body {
+    background-color: antiquewhite;
+}
+div {
+    display: inline-block;
+}
+.boton {
+    border: 2px solid #080808; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #4d9fae; /*color botón*/
+    color: #080808; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    margin-right: 6px;
+}
