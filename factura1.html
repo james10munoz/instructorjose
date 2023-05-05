@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/factura1.js"></script>
+</head>
+<body><center>
+        <h1 id="Sub">Nombre del Subproyecto</h1>
+        <input type="text" id="name_product">
+        <br><br>
+        <p>
+            Producto 1
+            <input type="text" id="name_p1" placeholder="Nombre del producto1">
+            <select name="select" id="tipo1">
+                <option hidden selected>Tipo</option>
+                <option>Software</option>
+                <option>Hardware</option>
+            </select>
+            <input type="number" id="cantidad1" placeholder="Ingrese la cantidad">
+            <input type="number" id="valor1" placeholder="Ingrese el Valor">
+            <p id="restotal1"></p>
+        </p>
+        <p>
+            Producto 2
+            <input type="text" id="name_p2" placeholder="Nombre del producto2">
+            <select name="select" id="tipo2">
+                <option hidden selected>Tipo</option>
+                <option>Software</option>
+                <option>Hardware</option>
+            </select>
+            <input type="number" id="cantidad2" placeholder="Ingrese la cantidad">
+            <input type="number" id="valor2" placeholder="Ingrese el Valor">
+            <p id="restotal2"></p>
+        </p>
+    <hr>
+    <p id="restotal"></p>
+    <button onclick="getValorTotal()">Valor Total</button>
+    <button onclick="getFactura()">Factura</button>
+    <hr>
+    
+    <div class="factura">
+        <table class="facture">
+            <tr>
+                <th><p id="name_sub"></p></th>
+                <th><p id="resname"></p></th>
+            </tr>
+            <tr>
+                <th class="izq totall1"><p id="Producto"></p></th>
+                <th class="totall1"><p id="Tipo"></p></th>
+                <th class="totall1"><p id="Cantidad"></p></th>
+                <th class="totall1"><p id="ValorU"></p></th>
+                <th class="der totall1"><p id="ValorT"></p></th>
+            </tr>
+            <tr>
+                <th class="izq"><p id="resname_p1"></p></th>
+                <th><p id="restipo1"></p></th>
+                <th><p id="rescantidad1"></p></th>
+                <th><p id="resvalor1"></p></th>
+                <th class="der"><p id="total1"></p></th>
+            </tr>
+            <tr>
+                <th class="izq"><p id="resname_p2"></p></th>
+                <th><p id="restipo2"></p></th>
+                <th><p id="rescantidad2"></p></th>
+                <th><p id="resvalor2"></p></th>
+                <th class="der"><p id="total2"></p></th>
+            </tr>
+            <tr>
+                <th class="izq" colspan="3"><p id="TotalT"></p></th>
+                <th class="der" colspan="2"><p id="todototal"></p></th>
+            </tr>
+        </table>
+    </div>
+</center>
+</body>
+</html>
